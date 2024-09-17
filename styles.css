@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+        /* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Image container styling */
+        .imageContainer {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        td img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Column width specifications */
+        .col-1, .col-3 {
+            width: 200px;
+        }
+
+        .col-2 {
+            width: 600px;
+            text-align: left;
+        }
